@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.MenuButton?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane prefHeight="371.0" prefWidth="673.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.TestController">
+   <children>
+      <RadioButton layoutX="28.0" layoutY="107.0" mnemonicParsing="false" />
+      <RadioButton layoutX="28.0" layoutY="153.0" mnemonicParsing="false" />
+      <RadioButton layoutX="28.0" layoutY="198.0" mnemonicParsing="false" />
+      <RadioButton layoutX="28.0" layoutY="238.0" mnemonicParsing="false" />
+      <RadioButton layoutX="28.0" layoutY="276.0" mnemonicParsing="false" />
+      <Text layoutX="71.0" layoutY="122.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" wrappingWidth="476.4050750732422">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Text layoutX="71.0" layoutY="168.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" wrappingWidth="476.4050750732422">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Text layoutX="71.0" layoutY="213.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" wrappingWidth="476.4050750732422">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Text layoutX="71.0" layoutY="253.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" wrappingWidth="476.4050750732422">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Text layoutX="71.0" layoutY="291.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" wrappingWidth="476.4050750732422">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Text fx:id="counter" layoutX="15.0" layoutY="49.0" strokeType="OUTSIDE" strokeWidth="0.0" text="1" wrappingWidth="26.953125">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Text>
+      <Text layoutX="54.0" layoutY="49.0" strokeType="OUTSIDE" strokeWidth="0.0" text="|">
+         <font>
+            <Font size="28.0" />
+         </font>
+      </Text>
+      <Text layoutX="71.0" layoutY="49.0" strokeType="OUTSIDE" strokeWidth="0.0" text="40">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Text>
+      <Button fx:id="counter_subtract" layoutX="16.0" layoutY="329.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="109.0" text="Add -1" />
+      <Button fx:id="counter_add" layoutX="549.0" layoutY="329.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="109.0" text="Add +1" />
+      <MenuButton layoutX="287.0" layoutY="330.0" mnemonicParsing="false" text="MenuButton">
+        <items>
+          <MenuItem mnemonicParsing="false" text="Action 1" />
+          <MenuItem mnemonicParsing="false" text="Action 2" />
+        </items>
+      </MenuButton>
+      <Text layoutX="549.0" layoutY="49.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" wrappingWidth="109.59999999999991">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>
