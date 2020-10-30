@@ -9,7 +9,7 @@
 <?import javafx.scene.text.Text?>
 
 
-<AnchorPane prefHeight="371.0" prefWidth="673.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.TestController">
+<AnchorPane prefHeight="371.0" prefWidth="673.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.engine.TestController">
    <children>
       <RadioButton layoutX="28.0" layoutY="107.0" mnemonicParsing="false" />
       <RadioButton layoutX="28.0" layoutY="153.0" mnemonicParsing="false" />

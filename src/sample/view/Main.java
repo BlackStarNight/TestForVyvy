@@ -1,12 +1,8 @@
-package sample;
+package sample.view;
 
 import javafx.application.Application;
-import javafx.fxml.FXMLLoader;
-import javafx.scene.Parent;
-import javafx.scene.Scene;
 import javafx.stage.Stage;
-
-import java.awt.*;
+import sample.view.Loading;
 
 public class Main extends Application {
     public static Stage TestStage;
@@ -19,7 +15,7 @@ public class Main extends Application {
     public void start(Stage primaryStage) throws Exception{
         TestStage = Loading.loading("Test.fxml", "Test");
         MenuStage = Loading.loading("sample.fxml", "Menu");
-        TestStage.show();
+        MenuStage.show();
     }
 
 
