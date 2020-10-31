@@ -8,7 +8,6 @@
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-
 <AnchorPane prefHeight="371.0" prefWidth="673.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.engine.TestController">
    <children>
       <RadioButton layoutX="28.0" layoutY="107.0" mnemonicParsing="false" />
@@ -64,7 +63,17 @@
           <MenuItem mnemonicParsing="false" text="Action 2" />
         </items>
       </MenuButton>
-      <Text layoutX="549.0" layoutY="49.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" wrappingWidth="109.59999999999991">
+      <Text fx:id="min" layoutX="560.0" layoutY="51.0" strokeType="OUTSIDE" strokeWidth="0.0" text="40" wrappingWidth="36.80001220703116">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Text>
+      <Text fx:id="sec" layoutX="604.0" layoutY="51.0" strokeType="OUTSIDE" strokeWidth="0.0" text="05" wrappingWidth="36.80001220703116">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Text>
+      <Text layoutX="597.0" layoutY="51.0" strokeType="OUTSIDE" strokeWidth="0.0" text=":" wrappingWidth="6.69921875">
          <font>
             <Font size="30.0" />
          </font>
